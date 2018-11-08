@@ -52,7 +52,6 @@ public class Main {
             a[i] = (int)alfa[i];
             u[i] = a[i]*v[i] - u[i-1];
             System.out.println("v"+i+" = "+v[i]+",  a"+i+" = "+a[i]+",  u"+i+" = "+u[i]);
-            System.out.println("------------------- i = " + i);
             s[i] = i;
             if (i!=1){
                 ps[i] = (a[i]*ps[i-1] + ps[i-2]) % n;
